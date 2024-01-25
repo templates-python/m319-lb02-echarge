@@ -19,10 +19,10 @@ def read_entry():
 def show_balance():
 
     # Basisversion: Zeile mit Datum und Kosten
-    # print(f'  - {DATUM}:\tCHF {KOSTEN:.2f}')
+    # print(f'  - {DATUM}\tCHF {KOSTEN:.2f}')
 
     # Erweitert: Zeile mit Datum und Kosten
-    # print(f'  - {DATUM:%d.%m.%Y %H:%M}:\tCHF {KOSTEN:.2f}')
+    # print(f'  - {DATUM:%d.%m.%Y %H:%M}\tCHF {KOSTEN:.2f}')
 
     # Beide Versionen: Zeile mit Total
     # print(f'{"Total:":<20}\tCHF {TOTAL:.2f}')
