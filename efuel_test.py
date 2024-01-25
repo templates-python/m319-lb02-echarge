@@ -194,8 +194,8 @@ def test_show_balance1(monkeypatch, capsys, collection, attributes, test_values)
         cost0 = round((57.5 * test_values['energy_price']), 2)
         cost1 = round((31.35 * test_values['energy_price']), 2)
         output = 'Abrechnung für {client}\n' \
-                 '  {sign} 12.03.2023 15:17:\tCHF {amount0:.2f}\n' \
-                 '  {sign} 21.03.2023 08:04:\tCHF {amount1:.2f}\n' \
+                 '  {sign} 12.03.2023 15:17\tCHF {amount0:.2f}\n' \
+                 '  {sign} 21.03.2023 08:04\tCHF {amount1:.2f}\n' \
                  '{total:<20}\tCHF {amount2:.2f}\n' \
             .format(
             client=test_values['client2'],
