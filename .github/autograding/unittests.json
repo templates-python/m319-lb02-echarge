@@ -1,0 +1,104 @@
+[
+  {
+    "name": "test_setup",
+    "function": "test_setup",
+    "timeout": 10,
+    "points": 0
+  },
+  {
+    "name": "test_attributes",
+    "function": "test_attributes",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_cost1",
+    "function": "test_cost1",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_cost2",
+    "function": "test_cost2",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_init_accounts1",
+    "function": "test_init_accounts1",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_init_accounts2",
+    "function": "test_init_accounts2",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_entry",
+    "function": "test_read_entry",
+    "timeout": 10,
+    "points": 2
+  },
+  {
+    "name": "test_add_entries1",
+    "function": "test_add_entries1",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_add_entries2",
+    "function": "test_add_entries2",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_show_balance1",
+    "function": "test_show_balance1",
+    "timeout": 10,
+    "points": 2
+  },
+  {
+    "name": "test_show_balance2",
+    "function": "test_show_balance2",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_float1",
+    "function": "test_read_float1",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_float2",
+    "function": "test_read_float2",
+    "timeout": 10,
+    "points": 0.5
+  },
+  {
+    "name": "test_read_float3",
+    "function": "test_read_float3",
+    "timeout": 10,
+    "points": 0.5
+  },
+  {
+    "name": "test_read_datetime1",
+    "function": "test_read_datetime1",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_read_datetime2",
+    "function": "test_read_datetime2",
+    "timeout": 10,
+    "points": 0.5
+  },
+  {
+    "name": "test_read_datetime3",
+    "function": "test_read_datetime3",
+    "timeout": 10,
+    "points": 0.5
+  }
+]

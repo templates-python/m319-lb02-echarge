@@ -1,10 +1,15 @@
 def main():
+    """
+    Main function to run the application.
+    :return: None
+    """
     accounting = init_accounts()
     add_entries(accounting)
     show_balance(accounting)
 
 
 def init_accounts():
+    
     return None
 
 
