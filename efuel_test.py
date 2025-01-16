@@ -259,11 +259,11 @@ def test_show_balance2(monkeypatch, capsys, collection, test_values):
         test_values['client2']: [entry3]
     }
     output = 'Abrechnung für {client1}\n' \
-             '  {sign} 12.03.2023 15:17:\tCHF {amount0:.2f}\n' \
-             '  {sign} 21.03.2023 08:04:\tCHF {amount1:.2f}\n' \
+             '  {sign} 12.03.2023 15:17\tCHF {amount0:.2f}\n' \
+             '  {sign} 21.03.2023 08:04\tCHF {amount1:.2f}\n' \
              '{total:<20}\tCHF {amount2:.2f}\n' \
              'Abrechnung für {client2}\n' \
-             '  {sign} 12.03.2023 06:02:\tCHF {amount3:.2f}\n' \
+             '  {sign} 12.03.2023 06:02\tCHF {amount3:.2f}\n' \
              '{total:<20}\tCHF {amount3:.2f}\n' \
         .format(
         sign='-',
