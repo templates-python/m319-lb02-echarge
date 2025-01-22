@@ -129,6 +129,7 @@ disable=R,
         xrange-builtin,
         zip-builtin-not-iterating,
         missing-module-docstring,
+        inconsistent-quotes,
         # missing-function-docstring,
 
 [REPORTS]
